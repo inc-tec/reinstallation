@@ -14,5 +14,5 @@ nameserver 9.9.9.9
 EOF
 apt update && \
 apt install -y curl && \
-curl -fsSL https://raw.githubusercontent.com/wavy07/reinstallation/main/reinstall.sh -o reinstall.sh && \
+curl -fsSL https://raw.githubusercontent.com/inc-tec/reinstallation/main/reinstall.sh -o reinstall.sh && \
 bash reinstall.sh
